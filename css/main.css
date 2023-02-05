@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.6rem 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    letter-spacing: .1rem;
+    background-color: #354D59;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,p,figure,ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 300;
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+button{
+    padding: 0;
+    font-size: inherit;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+/* scroll personnalisé */
+*{
+    /* firefox */
+    scrollbar-width: thin;
+    scrollbar-color: rgb(26, 8, 90) #fff;
+}
+/* pour chrome */
+*::-webkit-scrollbar{
+    width: .2rem;
+}
+*::-webkit-scrollbar-thumb{
+    background-color: #000;
+    outline: 0.1rem solid #fff;
+}
+/* theme */
+
+header{
+    background-color: #222;
+    
+}
+header h1{
+    line-height: 6.5rem;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+    
+}
+main{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+main hr{
+    border: 0;
+    height: .1rem;
+    background-color: #222;
+    margin: 5rem auto;
+}
+section{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+section h2, :is(figure h2, figcaption p){
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1rem;
+    
+}
+section p{
+    border-right: solid .2rem #222;
+    color: #fff;
+    padding: .1rem;
+    text-align: left;
+    
+}
+
+figure img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+    background: #fff;
+}
+figure figcaption h2{
+    background: #0868ac;
+    color: #fff;
+    line-height: 7.5rem;
+}     
+.warning{
+    background-color: #0868ac;
+    color: #fafafa;
+    display: inline-block;
+    text-align: center;
+    line-height: 4.5rem;
+    width: 20rem;
+    margin: 1rem 1rem 0 0;
+    text-shadow: -.1rem .1rem 0 #222;
+}
+footer *{
+    text-align: center;
+    color: #fff;
+}
